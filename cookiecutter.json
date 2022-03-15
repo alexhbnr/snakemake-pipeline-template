@@ -1,5 +1,5 @@
 {
     "pipeline_name": "snakemake_pipeline",
-    "pipeline_description": "",
-    "authors": "Max Mustermann",
+    "pipeline_description": "This is the description of the pipeline.",
+    "authors": "Max Mustermann"
 }
