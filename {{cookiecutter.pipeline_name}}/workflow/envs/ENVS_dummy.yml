@@ -1,0 +1,7 @@
+name: dummy_program
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - dummy_program

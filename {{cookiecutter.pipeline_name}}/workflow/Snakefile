@@ -1,0 +1,26 @@
+import os
+
+import pandas as pd
+from snakemake.utils import min_version
+
+min_version("6.0")
+
+configfile: "config/config.yaml"
+
+os.makedirs("snakemake_tmp", exist_ok=True)
+
+#### Parse sample table ########################################################
+sampletsv = pd.read_csv(config['sampletsv'], sep="\t", index_col=[0])
+sampletsv.index = sampletsv.index.astype(str)
+SAMPLES = sampletsv.index.tolist()
+################################################################################
+
+#### Include sub-workflows #####################################################
+
+include: "rules/dummy.smk"
+
+################################################################################
+
+rule all:
+    input:
+        "dummy.done"

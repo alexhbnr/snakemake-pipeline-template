@@ -1,0 +1,10 @@
+## Create the minimal conda environment for running this pipeline:
+##     conda env create -f environment.yml
+name: {{cookiecutter.project_name}}
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python>=3.9
+  - snakemake>=7.0

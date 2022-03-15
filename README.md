@@ -1,2 +1,3 @@
-# snakemake-pipeline-template
-Cookiecutter template for Snakemake pipelines
+## snakemake-pipeline-template
+
+This is a simple cookiecutter template for create a Snakemake pipeline.
