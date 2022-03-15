@@ -1,8 +1,8 @@
-## {{cookiecutter.project_name}}
+## {{cookiecutter.pipeline_name}}
 
 ### Introduction
 
-{{cookiecutter.project_description}}
+{{cookiecutter.pipeline_description}}
 
 ### Authors
 
