@@ -1,6 +1,6 @@
 ## Create the minimal conda environment for running this pipeline:
 ##     conda env create -f environment.yml
-name: {{cookiecutter.project_name}}
+name: {{cookiecutter.pipeline_name}}
 channels:
   - conda-forge
   - bioconda
